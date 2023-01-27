@@ -49,6 +49,11 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     width: 100%;
   } 
+ 
+  @media only screen and (max-device-width: 390px) {
+  .formulario { width:75%; }
+    }
+
 
  .esqueci-cadastro
  {
@@ -96,6 +101,10 @@ a:link {
 max-width: 100%;
  align-items: center;  
 }
+
+@media only screen and (max-device-width: 390px) {
+.logo { width:150px; } 
+  }
 
 .usuario {
     padding: 5px;
